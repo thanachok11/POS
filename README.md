@@ -5,6 +5,8 @@
 First, run the development server:
 
 ```bash
+npm install @zxing/library
+
 nmp install
 npm start
 ```
@@ -12,6 +14,9 @@ npm start
 ## Getting Started
 
 ```bash
+npm install multer
+npm install @types/multer
+npm install cloudinary
 npm install express body-parser cors dotenv
 npm install --save-dev typescript @types/node @types/express ts-node nodemon
 nmp install
