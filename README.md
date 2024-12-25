@@ -12,6 +12,8 @@ npm start
 ## Getting Started
 
 ```bash
+npm install express body-parser cors dotenv
+npm install --save-dev typescript @types/node @types/express ts-node nodemon
 nmp install
 npm run dev
 ```
