@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/authRoutes";
 import productRoutes from "./routes/productRoutes";
 import barcodeRoutes from "./routes/barcodeRoutes";
+import uploadRoutes from "./routes/uploadRoutes";
 import { connectDB } from "./database";
 import bodyParser from "body-parser";
 import cors from "cors";
@@ -25,6 +26,8 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/products", productRoutes);
 app.use("/api/product/barcode", barcodeRoutes);
+app.post("/api/product/upload", uploadRoutes);
+
 // เส้นทาง Auth6352
 app.use("/api/auth", authRoutes);
 
