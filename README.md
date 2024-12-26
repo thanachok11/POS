@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bash
 npm install @zxing/library
-npm install react-barcode-reader
+
 npm install
 npm start
 ```
