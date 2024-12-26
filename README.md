@@ -7,7 +7,7 @@ First, run the development server:
 ```bash
 npm install @zxing/library
 
-nmp install
+npm install
 npm start
 ```
 # Back-end
